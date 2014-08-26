@@ -1,0 +1,22 @@
+for(var i=0;i<links.length;i++)
+  { 
+     links[i].onmouseover=(function(i)
+                               {
+                                    return function()
+                                             {  
+                                                  var j=i+1;
+                                                  moveElement('preview',-(100*j),0,20);
+                                               }
+                                 })(i);
+
+
+for (var i = 0;  i < links.length; i++) 
+  {  
+         links[i].val=i;
+	 links[i].onmouseover=function()
+	         {
+		        var j = this.val + 1;
+		          moveElement('preview', -(100*j), 0, 20 );
+		      }
+	                                     
+     }

@@ -1,0 +1,63 @@
+body {
+        color:#fb5;
+        background-color:#334;
+    }
+a:link{
+        color:#445;
+		background-color:#eb6;
+    }
+a:visited{
+          color:#345;
+		  background-color:#eb6;
+       }
+a:hover {
+         color:#fff;
+		 background-color:#888;
+      }
+a:active{
+         color:#555;
+		 background-color:#ec8;
+      }
+header{
+       color:#eb6;
+	   background-color:#334;
+	   border-color:#fff;
+     }
+header nav ul{
+          background-color:#eb6;
+      }
+header nav  a.here:link,
+header nav  a.here:visited,
+header nav  a.here:hover,
+header nav  a.here:active
+     {  color:#000;
+	  background-color:#edc;
+      }
+
+article {
+       color:#223;
+	   background-color:#edc;
+	   border-color:#667;
+    }
+article a:link {
+         background-color:#ec8;
+    }
+
+th {
+     color:#edc;
+	 background-color:#445;
+   }
+tr td{ 
+     padding:.2em 4em;  
+     color:#223;
+	 background-color:#bbb;
+	 }
+tr.odd td {
+       background-color:#cba;
+      }
+tr.now td{
+      background-color:#ffb;
+   }
+
+	
+	

@@ -1,0 +1,79 @@
+section,header,article,nav {
+                  display:block;
+             }
+* {
+    padding:0;
+	margin:0;
+ }
+body {
+       margin:1em 10%;
+	   background-image:url(../images/background.gif);
+	   background-attachment:fixed;
+	   background-position:top left;
+	   background-repeat:repeat-x;
+	   max-width:80em;
+   }
+ header {
+		background-repeat:no-repeat;
+		background-position:top right;
+		border:.1em solid;
+		border-bottom-width:0;	
+    }
+header#home {
+             background-image:url(../images/guitarist.gif);
+			}
+header#about{
+             background-image:url(../images/lineup.gif);
+         }
+header#photos{
+             background-image:url(../images/basshead.gif);
+         }
+header#live{
+             background-image:url(../images/bassist.gif);
+         }
+header#contact{
+             background-image:url(../images/drummer.gif);
+         }
+header nav ul{
+         width:100%;
+		 overflow:hidden;
+		 border-left-width:.1em;
+		 border-left-style:solid;
+     }
+header nav ul li {
+         display:inline;
+      }
+header nav ul li a{
+          display:block;
+		  float:left;
+		  padding:.5em 4em;
+		  border-right:.1em #fff solid;
+       }
+   
+
+article {
+        border-width:.1em;
+		border-style:dotted;
+		border-top-width:0;
+		padding:1.5em 10% ;
+    }
+article div
+ {  position:relative;
+    width:100px;
+    height:150px;
+    overflow:hidden;
+ }
+#imm li {
+        display:inline;  
+                   } 
+#bigimage {
+            width:500px;
+             height:500px;
+            overflow:hidden;			 
+            }
+label {
+      display:block;
+   }
+fieldset {
+        border:0;
+     }

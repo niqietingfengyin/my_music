@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<title>music website</title>
+<link rel='stylesheet' href='style/basics.css' />
+<script type='text/javascript' src='./globle/addLoadEvent.js'></script>
+<script type='text/javascript' src='highLight.js'></script>
+<script type='text/javascript' src='verify.js'></script>
+<script type='text/javascript' src='ajax.js'></script>
+<script type='text/javascript' src='formsubmit.js'></script>
+</head>
+<body>
+ <header>
+ <img  src='images/logo.gif' alt='Jay Skip and the Domsters'/>
+   <nav>
+     <ul id='imagegallery'>
+	    <li><a href='index.html'>Home</a></li>
+		<li><a href='about.html'>About</a></li>
+		<li><a href='photos.html'>Photos</a></li>
+		<li><a href='live.html'>Live</a></li>
+		<li><a href='contact.html'>Contact</a></li>
+	 </ul>
+   </nav>
+ </header>
+ <article>
+    <h1>Contact the band</h1>
+	<form method='POST' name='contactform' action='thanks.html'>
+	<fieldset>
+      <p>
+	  <label for='name'>Name:</label>
+	   <input type='text' id='name' name='name' placeholder='your name' length='20' maxlength='30' > 
+	  <span id='namespan'></span>
+	  </p>
+	  <p>
+	  <label for='email'>Email:</label>
+	    <input type='text' id='email' name='message' placeholder='your contact email' length='20' maxlength='50'>
+	    <span id='emailspan'></span>
+	   </p>
+	  <p>
+	  <label for='msg'>Message:</label>
+	     <textarea rows='4' cols='30' id='msg' name='message' placeholder='write your message here'></textarea>
+	     <span id='msgspan'></span>
+	  </p>
+	   <input type='submit' id='submit' value='Submit' >
+	  </fieldset>
+	</form>
+ </article>
+</body>
+</html>
